@@ -75,6 +75,7 @@ nav ul {
     border-radius: 50px 50px 50px 50px;
     padding: 10px;
     margin: 25px;
+    transition: 700ms;
 }
 
 .container img:hover {
@@ -92,4 +93,90 @@ footer ul {
 footer {
     background-color: #7DEBCD;
     padding: 30px;
+}
+
+/* Responsividade para celular */
+
+@media only screen and (max-width: 480px) {
+ 
+    header {
+        width: 100vh;
+        padding: 20px;
+    }
+
+    #Logo {
+        width: 12rem;
+        margin-left: -10px;
+    }
+
+    form input {
+        width: 15rem;
+    }
+
+    #menu {
+        margin-right: -10px;
+    }
+
+    nav {
+        width: 100vh;
+        font-size: 15px;
+    }
+   
+    .container {
+        width: 100vh;
+        display:flex;
+    }
+
+    .container img {
+        margin: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        width: 100vh;
+    }
+}
+
+
+/* Responsividade meio-termo tablet */
+@media only screen and (max-width: 820px) {
+
+    header {
+        width: 100vh;
+        padding: 25px;
+    }
+
+    #Logo {
+        width: 15rem;
+    }
+
+    form input {
+        width: 15rem;
+    }
+
+    nav {
+        width: 100vh;
+        font-size: 15px;
+    }
+       
+    .container {
+        width: 100vh;
+        display:flex;
+    }
+
+    .container img {
+        margin: 30px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
 }
