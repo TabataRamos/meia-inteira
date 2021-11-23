@@ -14,6 +14,8 @@ ul {
 
 }
 
+/* Cabeçário */
+
 #Logo {
     width: 300px;
 }
@@ -43,6 +45,7 @@ form button {
     font-weight: 600;
     cursor: pointer;
     margin-left: -5px;
+    transition: 500ms;
 
 }
 
@@ -51,6 +54,21 @@ button:hover {
     transition: 500ms;
 }
 
+.menu {
+    color: #000000;
+    transition: 500ms;
+    font-weight: 400;
+}
+
+.menu:hover {
+    color: #113c4a;
+    transition: 500ms;
+    background-color: #61b8a1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Filtro */
 
 nav {
     background-color: aliceblue;
@@ -62,6 +80,22 @@ nav ul {
     justify-content: space-evenly;
     align-items: center;
 }
+
+nav ul a {
+    font-weight: 500;
+    color: #61b8a1;
+    transition: 500ms
+}
+
+nav ul a:hover {
+    color: #113c4a;
+    transition: 500ms;
+    background-color: #61b8a1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Contéudo */
 
 .container {
     display: flex;
@@ -84,10 +118,25 @@ nav ul {
     transition: 700ms;
 }
 
+/* Rodapé */
+
 footer ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+footer ul a {
+    color: #424f4b;
+    transition: 500ms;
+}
+
+footer a:hover {
+    color: #113c4a;
+    transition: 500ms;
+    background-color: #61b8a1;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 footer {
@@ -105,16 +154,16 @@ footer {
     }
 
     #Logo {
-        width: 12rem;
+        width: 25px;
         margin-left: -10px;
     }
 
     form input {
-        width: 15rem;
+        width: 10px;
     }
 
-    #menu {
-        margin-right: -10px;
+    .menu {
+        font-size: 15px;
     }
 
     nav {
@@ -148,11 +197,21 @@ footer {
     }
 
     #Logo {
-        width: 15rem;
+        width: 11rem;
     }
 
     form input {
-        width: 15rem;
+        width: 12rem;
+    }
+
+    button {
+        width: 5rem;
+    }
+
+    .menu {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: -5px;
     }
 
     nav {
