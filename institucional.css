@@ -95,33 +95,27 @@ nav ul a:hover {
     padding: 10px;
 }
 
-/* Contéudo */
+/* Página institucional  */
 
-.container {
-    margin: 25px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+.about {
+    margin: auto;
+    text-align: center;    
+    width: 100vh;
+    padding: 15px;
+} 
+
+.about h2 {
+    font-weight: 500;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
-.container img {
-    width: 500px;
-    height: 600px;
+.about img {
+    width: 600px;
     border-radius: 50px 50px 50px 50px;
     padding: 10px;
     margin: 25px;
-    transition: 700ms;
-    flex-wrap: wrap;
-}
-
-.container img:hover {
-    width: 525px;
-    height: 625px;
-    transition: 700ms;
-}
+} 
 
 /* Rodapé */
 
@@ -149,33 +143,9 @@ footer {
     padding: 30px;
 }
 
-/* Produto 
-
-.produto {
-    margin: 50px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.produto img{
-    width: 300px;
-    height: 400px;
-    border-radius: 25px 25px 25px 25px;
-    transition: 700ms;
-}
-
-.produto img:hover {
-    width: 325px;
-    height: 425px;
-    transition: 700ms;
-} */
-
 /* Responsividade para celular */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 599px) {
  
     header {
         width: 100vh;
@@ -216,9 +186,8 @@ footer {
     }
 }
 
-
 /* Responsividade meio-termo tablet */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1200px) {
 
     header {
         width: 100vh;
@@ -247,25 +216,13 @@ footer {
         width: 100vh;
         font-size: 15px;
     }
-       
-    .container {
+
+    footer {
         width: 100vh;
-        display:flex;
     }
-
-    .container img {
-        margin: 30px;
-        display: flex;
-        align-items: center;
-    }
-
 }
 
-
 @media only screen and (max-width: 1280px) {
-    .container {
-        display: flex;
-        align-items: center;
-    }
+    
 
 }
