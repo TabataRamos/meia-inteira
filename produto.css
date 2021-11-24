@@ -95,79 +95,53 @@ nav ul a:hover {
     padding: 10px;
 }
 
-/* Banner BLACK FRAUDE */
+/* Produto */
 
-.banner {
-    background: linear-gradient(180deg, #000, #434343);
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.banner h1 {
-    font-family: 'Monoton';
-    font-weight: 400;
-    font-size: 60px;
-    color: #84c8b6;
-    padding-right: 20px;
-}
-
-.banner h3 {
-    color: #274a41;
-    font-weight: 200;
-    font-size: 35px;
-}
-
-h3 span  {
-    color: #61B8A1;
-    font-family: 'Tourney';
-    font-weight: 600;
-}
-
-/* Banner da Loja */
-
-.pitch {
-    background: linear-gradient( 90deg, #c6eee3, #7DEBCD, #c6eee3);
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.pitch h3 {
-    font-family: 'Fleur De Leah';
-    align-items: center;
-    font-weight: 500;
-    font-size: 50px;
-    color: #0B0C04;
-}
-
-/* Contéudo */
-
-.container {
-    margin: 25px;
+.produto {
+    margin: 50px;
     padding: 25px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: justify;
     flex-wrap: wrap;
 }
 
-.container img {
-    width: 500px;
-    height: 600px;
-    border-radius: 50px 50px 50px 50px;
-    padding: 10px;
-    margin: 25px;
-    transition: 700ms;
-    flex-wrap: wrap;
+.produto img {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px 25px 25px 25px;
 }
 
-.container img:hover {
-    width: 525px;
-    height: 625px;
-    transition: 700ms;
+.produto ul li {
+    padding-top: 5px;
+}
+
+.produto button, select {
+    border: none;
+    box-shadow: 1px 3px 3px 1px #777777;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.produto button:hover {
+    transition: 500ms;
+    background-color: #c6eee3;
+}
+
+.produto button:focus{
+    background-color: #c6eee3;
+    box-shadow: 1px 1px 1px 1px #505050;
+}
+
+#comprar {
+    padding: 15px;
+    font-weight: 700;
+    background-color: #61B8A1;
 }
 
 /* Rodapé */
@@ -196,33 +170,7 @@ footer {
     padding: 30px;
 }
 
-/* Produto 
-
-.produto {
-    margin: 50px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.produto img{
-    width: 300px;
-    height: 400px;
-    border-radius: 25px 25px 25px 25px;
-    transition: 700ms;
-}
-
-.produto img:hover {
-    width: 325px;
-    height: 425px;
-    transition: 700ms;
-} */
-
-/* Responsividade para celular */
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 599px) {
  
     header {
         width: 100vh;
@@ -245,17 +193,23 @@ footer {
     nav {
         width: 100vh;
         font-size: 15px;
-    }
-   
-    .container {
+    }  
+
+    .produto {
         width: 100vh;
         display:flex;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
-    .container img {
-        margin: 30px;
+    .produto img {
         display: flex;
         align-items: center;
+        padding: 10px;
+    }
+
+    #comprar {
+        width: auto;
     }
 
     footer {
@@ -263,9 +217,8 @@ footer {
     }
 }
 
-
 /* Responsividade meio-termo tablet */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1200px) {
 
     header {
         width: 100vh;
@@ -294,25 +247,25 @@ footer {
         width: 100vh;
         font-size: 15px;
     }
-       
-    .container {
+
+    .produto {
         width: 100vh;
         display:flex;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
-    .container img {
-        margin: 30px;
+    .produto img {
         display: flex;
         align-items: center;
+        padding: 10px;
     }
 
-}
-
-
-@media only screen and (max-width: 1280px) {
-    .container {
-        display: flex;
-        align-items: center;
+    #comprar {
+        width: auto;
     }
 
+    footer {
+        width: 100vh;
+    }
 }

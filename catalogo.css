@@ -111,6 +111,7 @@ nav ul a:hover {
     width: 300px;
     height: 400px;
     border-radius: 25px 25px 25px 25px;
+    margin-top: 25px;
     transition: 700ms;
 }
 

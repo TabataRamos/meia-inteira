@@ -95,57 +95,10 @@ nav ul a:hover {
     padding: 10px;
 }
 
-/* Banner BLACK FRAUDE */
+/* Produto */
 
-.banner {
-    background: linear-gradient(180deg, #000, #434343);
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.banner h1 {
-    font-family: 'Monoton';
-    font-weight: 400;
-    font-size: 60px;
-    color: #84c8b6;
-    padding-right: 20px;
-}
-
-.banner h3 {
-    color: #274a41;
-    font-weight: 200;
-    font-size: 35px;
-}
-
-h3 span  {
-    color: #61B8A1;
-    font-family: 'Tourney';
-    font-weight: 600;
-}
-
-/* Banner da Loja */
-
-.pitch {
-    background: linear-gradient( 90deg, #c6eee3, #7DEBCD, #c6eee3);
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.pitch h3 {
-    font-family: 'Fleur De Leah';
-    align-items: center;
-    font-weight: 500;
-    font-size: 50px;
-    color: #0B0C04;
-}
-
-/* Contéudo */
-
-.container {
-    margin: 25px;
+.produto {
+    margin: 50px;
     padding: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -154,20 +107,24 @@ h3 span  {
     flex-wrap: wrap;
 }
 
-.container img {
-    width: 500px;
-    height: 600px;
-    border-radius: 50px 50px 50px 50px;
-    padding: 10px;
-    margin: 25px;
+.produto img{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 25px;
     transition: 700ms;
-    flex-wrap: wrap;
 }
 
-.container img:hover {
-    width: 525px;
-    height: 625px;
+.produto img:hover {
+    width: 325px;
+    height: 425px;
     transition: 700ms;
+}
+
+/* FILTRAR */
+
+.Básicas, .Listradas, .Bichinhos {
+    display: none;
 }
 
 /* Rodapé */
@@ -196,33 +153,7 @@ footer {
     padding: 30px;
 }
 
-/* Produto 
-
-.produto {
-    margin: 50px;
-    padding: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.produto img{
-    width: 300px;
-    height: 400px;
-    border-radius: 25px 25px 25px 25px;
-    transition: 700ms;
-}
-
-.produto img:hover {
-    width: 325px;
-    height: 425px;
-    transition: 700ms;
-} */
-
-/* Responsividade para celular */
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 599px) {
  
     header {
         width: 100vh;
@@ -247,15 +178,17 @@ footer {
         font-size: 15px;
     }
    
-    .container {
+    .produto {
         width: 100vh;
         display:flex;
+        margin: 0 auto;
+        margin-top: 25px;
     }
 
-    .container img {
-        margin: 30px;
+    .produto img {
         display: flex;
         align-items: center;
+        padding: 10px;
     }
 
     footer {
@@ -263,9 +196,8 @@ footer {
     }
 }
 
-
 /* Responsividade meio-termo tablet */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1200px) {
 
     header {
         width: 100vh;
@@ -294,25 +226,8 @@ footer {
         width: 100vh;
         font-size: 15px;
     }
-       
-    .container {
+
+    footer {
         width: 100vh;
-        display:flex;
     }
-
-    .container img {
-        margin: 30px;
-        display: flex;
-        align-items: center;
-    }
-
-}
-
-
-@media only screen and (max-width: 1280px) {
-    .container {
-        display: flex;
-        align-items: center;
-    }
-
 }
