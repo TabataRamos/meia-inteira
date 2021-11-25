@@ -105,6 +105,7 @@ nav ul a:hover {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .produto img{
@@ -119,6 +120,10 @@ nav ul a:hover {
     width: 325px;
     height: 425px;
     transition: 700ms;
+}
+
+a:link, a:visited, a:active {
+    color: #113c4a;
 }
 
 /* FILTRAR */
@@ -153,6 +158,13 @@ footer {
     padding: 30px;
 }
 
+.fixar {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
 @media only screen and (max-width: 599px) {
  
     header {
@@ -177,7 +189,11 @@ footer {
         width: 100vh;
         font-size: 15px;
     }
-   
+    
+    body {
+        height: auto;
+    }
+
     .produto {
         width: 100vh;
         display:flex;

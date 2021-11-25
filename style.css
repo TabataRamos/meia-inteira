@@ -160,8 +160,8 @@ h3 span  {
     width: 500px;
     height: 600px;
     border-radius: 50px 50px 50px 50px;
-    padding: 10px;
-    margin: 25px;
+    padding: 5px;
+    margin: 5px;
     transition: 700ms;
     flex-wrap: wrap;
 }

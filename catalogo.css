@@ -121,6 +121,10 @@ nav ul a:hover {
     transition: 700ms;
 }
 
+a:link, a:visited, a:active {
+    color: #113c4a;
+}
+
 /* Rodapé */
 
 footer ul {
