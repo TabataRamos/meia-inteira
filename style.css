@@ -282,6 +282,14 @@ footer {
         font-size: 15px;
     }
 
+    .banner {
+        width: 100vh;
+    }
+
+    .pitch {
+        width: 100vh;
+    }
+
     footer {
         width: 100vh;
     }
