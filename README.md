@@ -18,17 +18,18 @@ Somente:
 
 ## Status:
 
-[x] Responsividade
-[x] Vitrine virtual
-[x] Página institucional
-[x] Página de todos os produtos
-[x] CSS separado do HTML[x] Filtragem por categoria
-[x] Navegabilidade entre páginas
-[x] Design e imagens
-[x] Contato/Instagram
-[] Meu carrinho
-[] Minha conta
-[] Funcionalidade
+- [x] Responsividade
+- [x] Vitrine virtual
+- [x] Página institucional
+- [x] Página de todos os produtos
+- [x] CSS separado do HTML
+- [x] Filtragem por categoria
+- [x] Navegabilidade entre páginas
+- [x] Design e imagens
+- [x] Contato/Instagram
+- [ ] Meu carrinho
+- [ ] Minha conta
+- [ ] Funcionalidade
 
 ## Licença:
 
