@@ -170,6 +170,14 @@ footer {
     padding: 30px;
 }
 
+.fixar {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 820px) {
  
     header {
