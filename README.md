@@ -1,7 +1,5 @@
 # Meia Inteira
 
----
-
 ## Sobre o projeto:
 
 O site Meia Inteira foi um desafio proposto pela Gama Academy XP-40, realizado com o prazo de uma semana, qual deveriamos por em prática todas as competências que adquirimos ao longo do mês. O objetivo foi criar uma loja de meias simples.
@@ -29,9 +27,9 @@ Somente:
 - [x] Navegabilidade entre páginas
 - [x] Design e imagens
 - [x] Contato/Instagram
-- [] Meu carrinho
-- [] Minha conta
-- [] Funcionalidade
+- [ ] Meu carrinho
+- [ ] Minha conta
+- [ ] Funcionalidade
 
 ## Licença:
 
